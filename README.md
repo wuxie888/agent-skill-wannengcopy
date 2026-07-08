@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero-en.svg" alt="Wannengcopy banner" width="100%" />
+  <img src="./assets/cover.svg" alt="Wannengcopy banner" width="100%" />
 </p>
 
 <h1 align="center">Wannengcopy</h1>
@@ -143,8 +143,7 @@ agent-skill-wannengcopy/
 ├── agents/
 │   └── openai.yaml
 ├── assets/
-│   ├── hero-en.svg
-│   └── hero-zh.svg
+│   └── cover.svg
 ├── references/
 │   ├── copy-modes.md
 │   ├── evidence-recon.md
