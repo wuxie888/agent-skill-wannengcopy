@@ -1,0 +1,42 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Wannengcopy</title>
+  <desc id="desc">A refined banner for an evidence-first website remix agent skill.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBFCFE"/>
+      <stop offset="1" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="332" y1="286" x2="948" y2="286" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9"/>
+      <stop offset="0.5" stop-color="#10B981"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-20%" width="120%" height="140%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#0F172A" flood-opacity="0.08"/>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#0F172A" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1279" height="419" rx="30" fill="url(#bg)" stroke="#D9E1EC"/>
+  <rect x="40" y="40" width="1200" height="340" rx="28" fill="#FFFFFF" stroke="#E2E8F0" filter="url(#shadow)"/>
+  <rect x="40" y="40" width="1200" height="340" rx="28" fill="url(#grid)"/>
+
+  <text x="160" y="125" fill="#64748B" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="760" letter-spacing="2.4">AGENT SKILL / WEBSITE REMIX</text>
+  <text x="160" y="202" fill="#0F172A" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="74" font-weight="840" letter-spacing="0">Wannengcopy</text>
+  <text x="160" y="247" fill="#334155" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="25" font-weight="520">Reference evidence into product-ready websites.</text>
+
+  <line x1="160" y1="286" x2="840" y2="286" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <circle cx="160" cy="286" r="7" fill="#0EA5E9"/>
+    <circle cx="500" cy="286" r="7" fill="#10B981"/>
+    <circle cx="840" cy="286" r="7" fill="#6366F1"/>
+    <text x="160" y="326" fill="#0F172A" font-size="16" font-weight="780">REFERENCE</text>
+    <text x="500" y="326" fill="#0F172A" font-size="16" font-weight="780">EVIDENCE</text>
+    <text x="840" y="326" fill="#0F172A" font-size="16" font-weight="780">PRODUCT</text>
+    <text x="160" y="351" fill="#64748B" font-size="13" font-weight="520">Structure and rhythm</text>
+    <text x="500" y="351" fill="#64748B" font-size="13" font-weight="520">SOURCE / PARTIAL / GUESS</text>
+    <text x="840" y="351" fill="#64748B" font-size="13" font-weight="520">Original output</text>
+  </g>
+</svg>
