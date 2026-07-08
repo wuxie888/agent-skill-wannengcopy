@@ -1,0 +1,6 @@
+interface:
+  display_name: "万能复刻"
+  short_description: "先侦察取证，再把参考网站体验改造成自有产品官网"
+  default_prompt: "Use $wannengcopy to inspect a reference website with evidence, then remix it into an original product website with matching interaction feel."
+policy:
+  allow_implicit_invocation: true
