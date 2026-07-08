@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/wannengcopy-hero.svg" alt="Wannengcopy banner" width="100%" />
+</p>
+
 <h1 align="center">Wannengcopy · 万能复刻</h1>
 
 <p align="center">
@@ -11,30 +15,51 @@
   <a href="https://github.com/wuxie888/agent-skill-wannengcopy"><img alt="Agent Skill" src="https://img.shields.io/badge/agent-skill-2563eb.svg" /></a>
   <img alt="Codex ready" src="https://img.shields.io/badge/Codex-ready-16a34a.svg" />
   <img alt="Claude Code ready" src="https://img.shields.io/badge/Claude_Code-ready-7c3aed.svg" />
+  <a href="https://x.com/sciencedegens"><img alt="Follow on X" src="https://img.shields.io/badge/X-@sciencedegens-000000.svg" /></a>
+</p>
+
+<p align="center">
+  <a href="#install">Install</a>
+  ·
+  <a href="#workflow">Workflow</a>
+  ·
+  <a href="#operating-modes">Modes</a>
+  ·
+  <a href="https://x.com/sciencedegens">Follow @sciencedegens</a>
 </p>
 
 ## What This Is
 
 Wannengcopy is a reusable Skill for turning a reference website into a usable, original product site.
 
-It supports lawful exact cloning when you own or are authorized to copy the source, but defaults to **experience remix**:
+It supports lawful exact cloning when you own or are authorized to copy the source, but defaults to **experience remix**: preserve the reference site's structure, interaction feel, motion language, visual rhythm, and product-quality polish while replacing protected surfaces with original equivalents.
 
-- keep the reference site's structure, interaction feel, motion language, visual rhythm, and product-quality polish
-- replace brand assets, copy, product logic, media, screenshots, videos, claims, and protected surfaces
-- verify the output in a browser and audit it before handoff
+<table>
+  <tr>
+    <td><strong>Evidence first</strong><br />Inspect the reference before building. Record source, screenshots, motion, routes, and implementation confidence.</td>
+    <td><strong>Product first</strong><br />Keep the target product's user, action, workflow, copy, assets, and CTAs at the center.</td>
+    <td><strong>Audit before handoff</strong><br />Check browser behavior, reference leakage, motion proof, rights risk, and product logic.</td>
+  </tr>
+</table>
 
 ## Install
 
 ### Codex
 
 ```bash
-git clone https://github.com/wuxie888/agent-skill-wannengcopy.git ~/.codex/skills/wannengcopy
+mkdir -p ~/.codex/skills
+git clone \
+  https://github.com/wuxie888/agent-skill-wannengcopy.git \
+  ~/.codex/skills/wannengcopy
 ```
 
 ### Claude Code
 
 ```bash
-git clone https://github.com/wuxie888/agent-skill-wannengcopy.git ~/.claude/skills/wannengcopy
+mkdir -p ~/.claude/skills
+git clone \
+  https://github.com/wuxie888/agent-skill-wannengcopy.git \
+  ~/.claude/skills/wannengcopy
 ```
 
 Then ask your agent:
@@ -49,10 +74,24 @@ Use Wannengcopy when you want to:
 
 - remix a reference landing page into your own product website
 - rebuild a site with the same interaction rhythm but different product logic
-- migrate Linear / Raycast / Apple / Vercel / RMUX-style page quality into another domain
+- migrate Linear, Raycast, Apple, Vercel, or RMUX-style page quality into another domain
 - reconstruct hero motion, scroll choreography, Canvas, WebGL, Three.js, Lottie, or video-led sections
-- QA a previous clone/remix that looks good but still feels wrong
 - inspect a reference site with evidence before deciding what to preserve
+- repair a previous clone/remix that looks good but still feels wrong
+
+## Workflow
+
+```text
+reference website
+  -> evidence recon
+  -> legal/product mode
+  -> complexity level
+  -> module mapping
+  -> original implementation
+  -> browser verification
+  -> leakage audit
+  -> product logic QA
+```
 
 ## Operating Modes
 
@@ -64,33 +103,18 @@ Use Wannengcopy when you want to:
 | Motion Reconstruction | Focus on hero motion, scroll rhythm, Three.js, WebGL, Canvas, Lottie, or video. |
 | QA / Repair | Fix product mismatch, leaked assets, bad CTAs, weak motion, or wrong sections. |
 
-## Evidence-First Workflow
+## Complexity Levels
 
-Wannengcopy keeps the product goal first, but uses reference evidence to avoid hallucinated implementation.
+| Level | Type | Delivery stance |
+|---|---|---|
+| L1 | Static HTML/CSS | Exact if authorized; otherwise clean remix. |
+| L2 | CMS / company content site | Recreate representative templates, not CMS backend. |
+| L3 | React / Vue / Next content frontend | Rebuild with target stack and fixtures. |
+| L4 | Animation-heavy brand site | Preserve rhythm and mood; simplify microdetails when needed. |
+| L5 | WebGL / Canvas / Three.js | Source-first teardown; choose motion Level B/C/D consciously. |
+| L6 | SaaS / ecommerce / logged-in system | Clone demo surface and states only; do not clone backend logic. |
 
-```text
-reference site
-  -> evidence recon
-  -> mode + complexity decision
-  -> module mapping
-  -> original product implementation
-  -> browser verification
-  -> reference leakage audit
-  -> product logic QA
-```
-
-The skill can classify references from simple static pages to WebGL-heavy and SaaS-like systems:
-
-| Level | Type |
-|---|---|
-| L1 | Static HTML/CSS |
-| L2 | CMS / company content site |
-| L3 | React / Vue / Next content frontend |
-| L4 | Animation-heavy brand site |
-| L5 | WebGL / Canvas / Three.js |
-| L6 | SaaS / ecommerce / logged-in system |
-
-For complex motion claims, Wannengcopy uses evidence labels:
+## Evidence Labels
 
 | Label | Meaning |
 |---|---|
@@ -100,15 +124,13 @@ For complex motion claims, Wannengcopy uses evidence labels:
 
 ## What It Produces
 
-The agent using this Skill should produce:
-
-- a reference capture summary
-- a legal/product mode decision
-- a compact module mapping table
-- a motion level choice
+- reference capture summary
+- legal/product mode decision
+- compact module mapping table
+- motion level choice
 - original product copy and assets
 - browser verification evidence
-- leakage audit results
+- reference leakage audit
 - product-logic QA notes
 
 ## Skill Layout
@@ -118,6 +140,8 @@ agent-skill-wannengcopy/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml
+├── assets/
+│   └── wannengcopy-hero.svg
 ├── references/
 │   ├── copy-modes.md
 │   ├── evidence-recon.md
@@ -149,6 +173,10 @@ Use wannengcopy to remix this reference site into an original product website.
 ## Rights Boundary
 
 Publicly accessible code, screenshots, videos, or deployed assets are not automatically safe to ship. If ownership or license is unclear, use the reference as evidence and rebuild original target-product surfaces.
+
+## Follow
+
+Built and maintained by [@sciencedegens](https://x.com/sciencedegens).
 
 ## Credits
 
