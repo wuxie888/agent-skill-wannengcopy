@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/4clawAi/agent-skill-wannengcopy/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-111827.svg" /></a>
-  <a href="https://github.com/4clawAi/agent-skill-wannengcopy"><img alt="Agent Skill" src="https://img.shields.io/badge/agent-skill-2563eb.svg" /></a>
+  <a href="https://github.com/wuxie888/agent-skill-wannengcopy/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-111827.svg" /></a>
+  <a href="https://github.com/wuxie888/agent-skill-wannengcopy"><img alt="Agent Skill" src="https://img.shields.io/badge/agent-skill-2563eb.svg" /></a>
   <img alt="Codex ready" src="https://img.shields.io/badge/Codex-ready-16a34a.svg" />
   <img alt="Claude Code ready" src="https://img.shields.io/badge/Claude_Code-ready-7c3aed.svg" />
 </p>
@@ -28,13 +28,13 @@ It supports lawful exact cloning when you own or are authorized to copy the sour
 ### Codex
 
 ```bash
-git clone https://github.com/4clawAi/agent-skill-wannengcopy.git ~/.codex/skills/wannengcopy
+git clone https://github.com/wuxie888/agent-skill-wannengcopy.git ~/.codex/skills/wannengcopy
 ```
 
 ### Claude Code
 
 ```bash
-git clone https://github.com/4clawAi/agent-skill-wannengcopy.git ~/.claude/skills/wannengcopy
+git clone https://github.com/wuxie888/agent-skill-wannengcopy.git ~/.claude/skills/wannengcopy
 ```
 
 Then ask your agent:
