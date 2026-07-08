@@ -19,13 +19,13 @@ Wannengcopy turns a reference website into a usable, original product site. It s
 ### Codex
 
 ```bash
-git clone https://github.com/<your-org>/claude-skill-wannengcopy.git ~/.codex/skills/wannengcopy
+git clone https://github.com/<your-org>/agent-skill-wannengcopy.git ~/.codex/skills/wannengcopy
 ```
 
 ### Claude Code
 
 ```bash
-git clone https://github.com/<your-org>/claude-skill-wannengcopy.git ~/.claude/skills/wannengcopy
+git clone https://github.com/<your-org>/agent-skill-wannengcopy.git ~/.claude/skills/wannengcopy
 ```
 
 Replace `<your-org>` after you publish this repository to your own GitHub account.
@@ -66,7 +66,7 @@ Wannengcopy keeps the product goal first, but uses reference evidence to avoid h
 ## Structure
 
 ```text
-claude-skill-wannengcopy/
+agent-skill-wannengcopy/
 ├── SKILL.md
 ├── agents/
 │   └── openai.yaml
