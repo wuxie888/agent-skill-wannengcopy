@@ -1,11 +1,5 @@
 <p align="center">
-  <img src="./assets/cover.svg" alt="Wannengcopy banner" width="100%" />
-</p>
-
-<h1 align="center">Wannengcopy</h1>
-
-<p align="center">
-  Evidence-first website copy-remix workflow for agent Skill systems.
+  <img src="./assets/cover-en.svg" alt="Wannengcopy — reference the experience, rebuild the product" width="100%" />
 </p>
 
 <p align="center">

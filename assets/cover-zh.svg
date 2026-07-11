@@ -1,0 +1,60 @@
+<svg width="1280" height="480" viewBox="0 0 1280 480" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">万能复刻</title>
+  <desc id="desc">从参考证据出发，重建属于自己的产品网站。</desc>
+  <defs>
+    <linearGradient id="titleColor" x1="74" y1="205" x2="720" y2="205" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#72E6FF"/>
+      <stop offset="0.32" stop-color="#82F6B5"/>
+      <stop offset="0.66" stop-color="#FFE66D"/>
+      <stop offset="1" stop-color="#FF8FB8"/>
+    </linearGradient>
+    <linearGradient id="spectrum" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#27D7FF"/>
+      <stop offset="0.34" stop-color="#35E7A3"/>
+      <stop offset="0.67" stop-color="#FFE066"/>
+      <stop offset="1" stop-color="#FF6EAF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="854" y1="80" x2="1174" y2="402" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A2030"/>
+      <stop offset="1" stop-color="#0B0E17"/>
+    </linearGradient>
+    <filter id="blur" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="34"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="480" rx="24" fill="#090B11"/>
+  <rect width="1280" height="480" rx="24" fill="url(#grid)"/>
+  <circle cx="1110" cy="95" r="118" fill="#FF4FA0" fill-opacity="0.18" filter="url(#blur)"/>
+  <circle cx="875" cy="388" r="135" fill="#23D7FF" fill-opacity="0.16" filter="url(#blur)"/>
+
+  <text x="74" y="74" fill="#9CA5B8" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3.2">AGENT SKILL  /  WEBSITE REMIX</text>
+  <text x="72" y="206" fill="url(#titleColor)" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="104" font-weight="900">万能复刻</text>
+  <text x="76" y="262" fill="#F4F6FA" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="28" font-weight="700">借鉴体验，重做产品。</text>
+  <text x="76" y="304" fill="#AAB2C2" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="18">从证据出发，把参考网站重构成真正属于你的作品。</text>
+
+  <rect x="76" y="354" width="5" height="48" rx="2.5" fill="url(#spectrum)"/>
+  <text x="98" y="371" fill="#F5F7FA" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="1.2">取证  ·  重构  ·  验收</text>
+  <text x="98" y="399" fill="#778196" font-family="PingFang SC, Microsoft YaHei, Noto Sans CJK SC, Arial, sans-serif" font-size="14">支持 Codex 与 Claude Code</text>
+
+  <rect x="846" y="69" width="348" height="342" rx="18" fill="#111622" stroke="#FFFFFF" stroke-opacity="0.13"/>
+  <rect x="868" y="91" width="304" height="7" rx="3.5" fill="url(#spectrum)"/>
+  <text x="870" y="138" fill="#778196" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="12" font-weight="800" letter-spacing="2">重构记录</text>
+  <text x="870" y="188" fill="#F5F7FA" font-family="Arial, sans-serif" font-size="34" font-weight="800">01</text>
+  <text x="937" y="179" fill="#DCE2EC" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="800">观察参考</text>
+  <text x="937" y="201" fill="#778196" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">结构 / 节奏 / 交互</text>
+  <path d="M870 223H1170" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <text x="870" y="276" fill="#F5F7FA" font-family="Arial, sans-serif" font-size="34" font-weight="800">02</text>
+  <text x="937" y="267" fill="#DCE2EC" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="800">重做产品</text>
+  <text x="937" y="289" fill="#778196" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">品牌 / 内容 / 产品逻辑</text>
+  <path d="M870 311H1170" stroke="#FFFFFF" stroke-opacity="0.1"/>
+  <text x="870" y="364" fill="#F5F7FA" font-family="Arial, sans-serif" font-size="34" font-weight="800">03</text>
+  <text x="937" y="355" fill="#DCE2EC" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="15" font-weight="800">浏览器验收</text>
+  <text x="937" y="377" fill="#778196" font-family="PingFang SC, Microsoft YaHei, Arial, sans-serif" font-size="13">表现 / 权益 / 交付</text>
+
+  <text x="1188" y="449" fill="#7E8799" text-anchor="end" font-family="Arial, Helvetica, ui-sans-serif, system-ui, sans-serif" font-size="14" font-weight="700">@sciencedegens</text>
+  <rect x="0.5" y="0.5" width="1279" height="479" rx="23.5" stroke="#FFFFFF" stroke-opacity="0.12"/>
+</svg>

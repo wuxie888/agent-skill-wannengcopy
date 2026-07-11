@@ -1,11 +1,5 @@
 <p align="center">
-  <img src="./assets/cover.svg" alt="万能复刻横幅" width="100%" />
-</p>
-
-<h1 align="center">万能复刻</h1>
-
-<p align="center">
-  面向智能体 Skill 系统的网站体验复刻与产品化重构工作流。
+  <img src="./assets/cover-zh.svg" alt="万能复刻 — 借鉴体验，重做产品" width="100%" />
 </p>
 
 <p align="center">
